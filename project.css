@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    text-decoration: none; 
+}
+
+/* navbar */
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1%;
+    justify-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    
+}
+.child1{
+    word-spacing: 20px;
+    align-content: center;
+
+}
+
+a{
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 120%;
+}
+a:hover{
+    color: rgba(0, 128, 0, 0.623);
+}
+.child2{
+    word-spacing: 30px;
+    font-size: 150%;
+    color: rgba(0, 128, 0, 0.582);
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+/* #el4:hover{
+    color: green;
+    background-color: orange;
+
+} */
+/* background img */
+.banner{
+     background: linear-gradient(rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0.897)), url(./assets/vegfruit.jpg) ;
+     background-repeat: no-repeat;
+     width:100%;
+     height:80vh; 
+     padding:1rem 2rem;
+     overflow-x: hidden;
+}
+
+.label{
+    position: relative;
+}
+.el{
+    border: 1px solid orange;
+    border-radius: 28px;
+    padding: 3%;
+    width: 55%;
+}
+.el1{
+    position: absolute;
+    left: 33%;
+    border: 1px solid orange;
+    border-radius: 28px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+.el1:hover{
+    background-color: orange;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    
+}
+.child3{
+    flex-basis: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.child14{
+    flex-basis: 50%;
+     
+}
+/* cards */
+
+.container1{
+    width: 80%;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.062);
+    
+}
+.para{
+    text-align: center;
+    margin-top: 4%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+/* responsive cards */
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    padding: 5%;
+    margin-top: 8%;
+}
+.child5{
+    color: rgba(0, 0, 0, 0.788);
+}
+.child6{
+    word-spacing:3rem;
+    
+
+}
+
+.card1{
+    width:80% ;
+    border: 1px solid orange;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+
+}
+
+.card1:hover{
+    box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.397);
+    transition: all linear 0.5s;
+
+}
+
+.pic{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.pic:hover{
+    transform: scale(1.2);
+    
+}
+
+
+.para1{
+    margin-top: 10%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.795);
+}
+.button{
+    border: 1px solid orange;
+    padding: 4%;
+    border-radius: 20px;
+    word-spacing: 5px;
+    color: rgba(0, 128, 0, 0.582);
+    font-size: 1rem;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.button:hover{
+    background-color: orange;
+    color: white;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3%;
+    margin-left: 3%;
+    width: 100%;
+    
+}
+
+
+/*   cards1   */
+
+.container4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    margin-left: 6%;
+    margin-top: 20%;
+    
+
+}
+
+
+.card2{
+      border: 1px solid orange;
+      border-radius: 1em;
+      width: 80%;
+      height: fit-content;
+      text-align: center;
+
+}
+
+.box1{
+       border: 1px solid orange ;
+       background-color:orange ;
+       border-bottom-left-radius: 1em;
+       border-bottom-right-radius: 1em;
+       color: white;
+       padding: 10%;
+       height: fit-content;
+       
+    
+}
+
+.card3{
+    
+    border: 1px solid #5C6E91 ;   
+    border-radius: 1em;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+
+}
+.box2{
+    border: 1px solid #5C6E91;
+    background-color:#5C6E91;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: white;
+    padding: 10%;
+    height: fit-content;
+
+
+}
+
+.card4{
+    border: 1px solid olivedrab;
+    border-radius: 1em;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+
+}
+.box3{
+    border: 1px solid olivedrab;
+    background-color:olivedrab;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: white;
+    padding: 10%;
+    height: fit-content;
+
+
+}
+
+/*   organic vegetables */
+
+
+
+.card5{
+    width:80% ;
+    border: 1px solid orange;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+
+}
+
+.card5:hover{
+    box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.397);
+    transition: all linear 0.5s;
+
+}
+
+.pic{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.pic:hover{
+    transform: scale(1.0);
+    
+}
+
+
+.para1{
+    margin-top: 10%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.795);
+}
+.button{
+    border: 1px solid orange;
+    padding: 4%;
+    border-radius: 20px;
+    word-spacing: 5px;
+    color: rgba(0, 128, 0, 0.582);
+    font-size: 1rem;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.button:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 3%;
+    width: 100%;
+    
+}
+
+
+/*     banner1  */
+
+
+.banner1{
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-items: center;
+     margin-top: 15%;
+     background-color: rgba(255, 166, 0, 0.842);
+     width: 100%;
+
+
+}
+
+.el2{
+
+    margin-top: 10%;
+    color: rgba(0, 0, 128, 0.603);
+    
+
+}
+.el3{
+
+    margin-top: 10%;
+}
+
+.buy{
+    border: 2px solid white; 
+    padding: 5%;
+     width: 25%;
+     border-radius: 44px;
+     background-color: rgba(255, 166, 0, 0.753);
+}
+.buy:hover{
+    background-color: olivedrab;
+    color: white;
+}
+
+.para2{
+
+    margin-top: 10%;
+    text-align: center;
+}
+
+/*     cards    */
+
+.card6{
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    background-color: whitesmoke;
+
+
+}
+
+.pic2{
+      margin-top: 15%;
+      margin-left: 3%;    
+
+}
+
+.content{
+    padding: 5%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.button1{
+    padding: 15%;
+    width: 130%;
+    border: 1px solid orange;
+    color: olivedrab;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.btn{
+    padding:10% !important;
+    width:95% !important;
+}
+
+.button1:hover{
+    background-color: orange;
+    color: white;
+
+}
+
+.container6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+    column-gap: -65%;
+    justify-items: center;
+    margin-top: 5%;
+}
+
+/*    cards    */
+
+
+.container7{
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 10%;
+    margin-right: 5%;
+  
+
+
+
+
+}
+.card7{
+     width: 150%;
+     border: 1px solid white;
+     border-radius: 10px;
+     background-color: whitesmoke;
+     
+    
+
+}
+
+
+/*    testimonial */
+
+
+.heading{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.box4{
+    width: 35%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: whitesmoke;
+    
+}
+.box4:hover{
+    box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.397);
+    transition: all linear 0.5s;
+
+}
+
+.container8a{
+    display: flex;
+    padding: 3%;
+    margin-top: 3%;
+    gap: 3%;
+
+}
+
+.container8{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+
+}
+.pic1:hover{
+    transform: scale(1.2);
+    
+}
+
+/*      contact    */
+
+.container9a{
+    display: flex;
+    gap: 60%;
+    justify-content: center;
+    
+    
+}
+.el4{
+    font-size: 2rem;
+    color: orange;
+    align-items: center;
+    
+}
+.container9b{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.el5{
+    color:rgba(245, 245, 245, 0.534);
+    
+}
+.el5:hover{
+    color: orange;
+}
+.el6{
+    color:rgba(245, 245, 245, 0.534) ;
+}
+.el6:hover{
+    color: orange;
+}
+.button2{
+    padding: 8%;
+    border: 1px solid orange;
+    border-radius: 55px;
+    color: olivedrab;
+}
+
+.button2:hover{
+    background-color: orange;
+    color: white;
+}
+.el7{
+   color:  rgba(245, 245, 245, 0.534);
+}
+.el7:hover{
+    color: orange;
+}
+.el8{
+    color: rgba(245, 245, 245, 0.534);
+}
+.el8:hover{
+    color: orange;
+}
+.container9{
+    background-color: #2F3645;
+    padding: 15%;
+    margin-top: 20%;
+    height: auto;
+    
+}
+
